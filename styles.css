@@ -6,6 +6,9 @@
 Strong {
     color: #1D3BFF;
 }
+.branco{
+    color: #FFFFFF;
+}
 .azul-botao {
     background-color: #0022FF;
 }
@@ -53,5 +56,18 @@ Strong {
 }
 .tela1__texto__2{
     font-size: 30px;
+    font-family: 'inter', sans-serif;
+}
+.tela2__texto__1{
+    font-size: 52px;
+    font-family: 'inter', sans-serif;
+
+}
+.tela2__texto__2{
+    font-size: 35px;
+    font-family: 'inter', sans-serif;
+}
+.tela2__texto__3{
+    font-size: 28px;
     font-family: 'inter', sans-serif;
 }
