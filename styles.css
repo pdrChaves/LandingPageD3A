@@ -1,14 +1,57 @@
-body {
-    background-color: #0A0F2B;
-    color: #FFFFFF;
+    @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
 }
-
 Strong {
     color: #1D3BFF;
 }
-.Azul-Botao {
+.azul-botao {
     background-color: #0022FF;
 }
-.Texto-Botao {
+.texto-botao {
     color: #FBFBFB;
+}
+.tela1 {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #0A0F2B;
+    color: #FFFFFF;
+    display: flex;
+    /*
+    justify-content: space-between;
+    */
+}
+.tela2 {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #050A25;
+    color: #FFFFFF;
+    display: flex;
+}
+.tela3 {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #0A0F2B;
+    color: #FFFFFF;
+    display: flex;
+}
+.tela1__doulhe3{
+    width: 415px;
+}
+.tela1__doulhe3__texto{
+    font-size: 77px;
+    font-family: 'inter', sans-serif;
+}
+.tela1__texto{
+    width: 717px;
+    font-family: 'inter', sans-serif;
+}
+.tela1__texto__1{
+    font-size: 45px;
+    font-family: 'inter', sans-serif;
+}
+.tela1__texto__2{
+    font-size: 30px;
+    font-family: 'inter', sans-serif;
 }
