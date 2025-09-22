@@ -3,39 +3,55 @@
     margin: 0;
     padding: 0;
 }
-Strong {
-    color: #1D3BFF;
-}
-.branco{
-    color: #FFFFFF;
-}
-.azul-botao {
+.azul_botao {
     background-color: #0022FF;
 }
-.texto-botao {
-    color: #FBFBFB;
+.azul_botao_letra{
+    color: #0022FF
+}
+.azul_empresa_letra{
+    color: #1C4EA4;
+}
+.azul_empresa{
+    background-color: #1C4EA4;
+}
+.texto_botao{
+    color: #FFFFFF;
+}
+.botao{
+    background-color: #0022FF;
+    font-size: 40px;
+    font-family: 'inter', sans-serif;
+    padding: 24.42px 10.00px;
+    text-align: center;
+    width: 584.04px;
+    border-radius: 25px;
 }
 .tela1 {
     height: 100vh;
     box-sizing: border-box;
-    background-color: #0A0F2B;
+    background-color: #FFFFFF;
     color: #FFFFFF;
     display: flex;
+    align-items: center;
     /*
     justify-content: space-between;
     */
 }
+.tela1_coluna1{
+    gap: 25.41px;
+}
 .tela2 {
     height: 100vh;
     box-sizing: border-box;
-    background-color: #050A25;
+    background-color: #021277;
     color: #FFFFFF;
     display: flex;
 }
 .tela3 {
     height: 100vh;
     box-sizing: border-box;
-    background-color: #0A0F2B;
+    background-color: #FFFFFF;
     color: #FFFFFF;
     display: flex;
 }
@@ -53,10 +69,12 @@ Strong {
 .tela1__texto__1{
     font-size: 45px;
     font-family: 'inter', sans-serif;
+    color: #1C4EA4;
 }
 .tela1__texto__2{
     font-size: 30px;
     font-family: 'inter', sans-serif;
+    color: #0A0F2B;
 }
 .tela2__texto__1{
     font-size: 52px;
@@ -70,4 +88,24 @@ Strong {
 .tela2__texto__3{
     font-size: 28px;
     font-family: 'inter', sans-serif;
+}
+.tela3_texto{
+    color: #021277;
+    font-size: 65px;
+    font-family: 'inter', sans-serif;
+}
+.tela3_texto_numeros{
+    color: #0022FF;
+    font-size: 90px;
+    font-family: 'inter', sans-serif;
+}
+.tela3_texto_titulo{
+    color: #1C4EA4;
+    font-size: 35px;
+    font-family: 'inter', sans-serif;
+}
+.tela3_texto_descricao{
+    color: #1C4EA4;
+    font-size: 28px;
+    font-family: "inter", sans-serif;
 }
